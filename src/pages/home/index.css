@@ -1,0 +1,115 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{display: flex;
+    flex-direction: column;
+}
+
+.icone{
+    border-radius: 260px;
+    width: 80px;
+    height: 80px;
+    margin: 10px 20px;
+}
+
+.cabecalho{
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.titulo-cabeçalho{
+    color: #ffff00;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+
+}
+
+.links-cabecalho{
+    margin: 0 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-color: white;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 3px;
+    
+}
+
+.fundo-com-imagem{
+    background-image:url("../../assets/images/palestrante.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: 100vh;
+}
+
+.organize{
+    width: 200px;
+    font-size: 45px;
+    position: absolute;
+    margin-top: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    width: 500px;
+}
+
+.rodape{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icones-rodape{
+    width: 50px;
+    margin: 20px 40px;
+
+}
+
+.faixa-diagonal{
+    width: 100%;
+    background-color:#a0a0a0;
+    clip-path: polygon(0% 0, 120% 0%, 0% 100%, 0 50%);
+}
+
+.titulo-nosso-compromisso{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    color:#ffff00;
+    font-size: 40px;
+    width: 550px;
+    padding: 40px 20px 60px 40px;
+    display: flex;
+    
+
+}
+
+.divisor-texto-padrao{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding: 0px 0px 100px 0px;
+}
+
+.texto-padrão{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 600px;
+    text-align: justify;
+    padding: 0px 50px 0px 0px;
+}
+
+.imagem-texto-padrão{
+    width: 100px;
+}
