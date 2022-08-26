@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+
 
 export default function Evento() {
     
@@ -6,7 +6,7 @@ export default function Evento() {
 
     return(
         <div>
-            <Link to={"/"}>tamo fundindo</Link>
+            <h1>EVENTO COM YURI UTIDA</h1>
         </div>
 
     )
