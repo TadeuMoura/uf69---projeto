@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.faixa-de-evento1{
+    padding: 0px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #1b1b1b;
+    height: 400px;
+}
+
+.faixa-de-evento2{
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+
+.fonte-H1{
+font-family: system-ui;
+font-size: 40px;
+color: #ffffff;
+margin: 10px 0px;
+}
+
+.fonte-H2{
+    font-family: system-ui;
+    font-size: 25px;
+    color: #ffffff;
+    margin: 10px 0px;
+}
+
+.fonte-H3{
+    font-family: system-ui;
+    font-size: 40px;
+    color: #000000;
+    margin: 10px 0px;
+    }
+    
+
+.fonte-H4{
+    font-family: system-ui;
+    font-size: 25px;
+    color: #000000;
+    margin: 10px 0px;
+}
+.aba-de-evento{
+    background-image:url("../../assets/images/bg-amarelo.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 65px 0px;
+    border:double #000000 15px;
+}
+
+.texto-padrao-evento{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #000000;
+    width: 900px;
+    display: flex;
+    text-align: justify;
+    padding: 20px 50px 50px 0px;
+}
+
+.imagem1{
+    border-radius: 20px;
+    border: solid rgb(150, 150, 150) 5px; 
+    height: 300px;
+}
+
+.imagem2{ 
+    height: 300px;
+}

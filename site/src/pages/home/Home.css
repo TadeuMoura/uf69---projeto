@@ -3,15 +3,32 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+
 }
 
+.fonteH1{
+font-family: system-ui;
+font-size: 40px;
+color: #000000;
+margin: 10px 0px;
+}
+
+.fonteH2{
+    font-family: system-ui;
+    font-size: 25px;
+    color: #000000;
+    margin: 10px 0px;
+    }
+
 .aba-de-evento{
-    background-color: #ffff00;
+    background-image:url("../../assets/images/bg-amarelo.png");
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 0px;
+    padding: 65px 0px;
+    border:double #000000 15px;
 }
 
 .div-mae{display: flex;
@@ -50,7 +67,7 @@
     text-decoration-color: white;
     text-decoration: none;
     color: #ffffff;
-    font-size: 25px;
+    font-size: 20px;
     letter-spacing: 3px;
     
 }
@@ -60,6 +77,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
+    background-position: center center;
     height: 100vh;
 }
 
@@ -74,14 +92,14 @@
 
 
 .organize{
-    width: 200px;
-    font-size: 45px;
+    font-size: 60px;
     position: absolute;
-    margin-top: 200px;
+    margin-top: 250px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
     color: #ffffff;
     text-align: center;
-    width: 500px;
+    width: 650px;
+    
 }
 
 .rodape{
@@ -111,7 +129,7 @@
     color:#ffff00;
     font-size: 40px;
     width: 550px;
-    padding: 40px 20px 60px 40px;
+    padding: 0px 20px 60px 40px;
     display: flex;
     
 
@@ -121,18 +139,18 @@
     display: flex;
     flex-direction: row;
     justify-content: right;
-    padding: 0px 0px 100px 0px;
+    padding: 0px 0px 50px 0px;
     background-color: #1b1b1b;
 }
 
-.texto-padrão{
+.texto-padrao{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 35px;
+    font-size: 25px;
     color: #ffffff;
-    width: 900px;
+    width: 100%;
     display: flex;
     text-align: justify;
-    padding: 50px 50px 100px 50px;
+    padding: 20px 50px 50px 50px;
 }
 
 .imagem-texto-padrão{
@@ -140,5 +158,15 @@
 }
 
 .linha-preta{
-    background-color:#000000; 
+    background-image: linear-gradient(#000000d1, #000000);
+    padding: 10px 0px;
+    color: transparent;
+    
+}
+
+.linha-preta2{
+    background-image: linear-gradient(#1b1b1b, #1b1b1bd1);
+    padding: 20px 0px;
+    color: transparent;
+    
 }

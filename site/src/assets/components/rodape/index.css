@@ -1,0 +1,32 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+
+}
+
+.rodape{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logos-rodape{
+    width: 40px;
+    margin: 15px 40px;
+
+}
+
+.logos-rodape:hover{
+    transform: scale(1.1);
+
+}
+
+.politica{
+    color: #ffffff;
+    padding: 0px 100px;
+}

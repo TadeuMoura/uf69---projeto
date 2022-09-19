@@ -1,0 +1,30 @@
+.fundo-config{
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    color:#ffff00;
+    font-size: 40px;
+    padding: 0px 20px 0px 40px;
+    display: flex;
+}
+
+.texto-padrão{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    display: flex;
+    text-align: justify;
+    padding: 20px 30px;
+    width: 100%;
+}
+
+.aba-1{
+    background-color: #0000008d;
+    margin: 10px 20px;
+    border-radius: 20px;
+}
