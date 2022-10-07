@@ -1,5 +1,5 @@
 //Design css
-import "./Home.css";
+import "./index.css";
 
 //link
 import { Link } from "react-router-dom";
@@ -7,7 +7,8 @@ import { Link } from "react-router-dom";
 //componentes
 import Rodape from "../../assets/components/rodape";
 import Cabecalho from "../../assets/components/cabecalho";
-
+// import Contador from "../../assets/components/contador";
+{/* <Contador/> */}
 
 
 
@@ -21,7 +22,7 @@ export default function Home (){
 
 
     <section className="aba-de-evento">
-        <h1 className="fonteH1">NOVO EVENTO NO DIA 22 DE OUTUBRO</h1>
+        <h1 className="fonteH1">NOVO EVENTO EM </h1>
         <Link className="fonteH2" to={"/evento"}><h1>VENHA CONFERIR</h1></Link>
     </section>
     

@@ -3,8 +3,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    
-
 }
 
 .rodape{
@@ -29,4 +27,39 @@
 .politica{
     color: #ffffff;
     padding: 0px 100px;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 500px) and (max-width:799px){
+    .politica{
+        color: #ffffff;
+        padding: 0px 100px;
+        font-size: 15px;
+    }
+
+    .logos-rodape{
+        width: 15px;
+        margin: 15px 40px;
+    
+    }
+}
+
+@media (min-width: 300px) and (max-width:499px){
+    .politica{
+        color: #ffffff;
+        padding: 0px 100px;
+        font-size: 10px;
+    }
+
+    .logos-rodape{
+        width: 30px;
+        margin: 15px 40px;
+    
+    }
 }

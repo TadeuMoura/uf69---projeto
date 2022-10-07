@@ -1,3 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.e{width: 100%;}
+
 .fundo-config{
     background-color: #1b1b1b;
     display: flex;
@@ -27,4 +36,75 @@
     background-color: #0000008d;
     margin: 10px 20px;
     border-radius: 20px;
+}
+
+@media (min-width: 500px) and (max-width:700px){
+    
+    .titulo{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+        color:#ffff00;
+        font-size: 30px;
+        padding: 0px 20px 0px 40px;
+        display: flex;
+    }
+    
+    .texto-padrão{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: #ffffff;
+        display: flex;
+        text-align: justify;
+        padding: 10px 20px;
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 300px) and (max-width:499px){
+    
+    .titulo{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+        color:#ffff00;
+        font-size: 20px;
+        padding: 0px 20px 0px 40px;
+        display: flex;
+    }
+    
+    .texto-padrão{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: #ffffff;
+        display: flex;
+        text-align: justify;
+        padding: 10px 20px;
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 200px) and (max-width:299px){
+    .aba-1{
+        background-color: #0000008d;
+        margin: 10px 5px;
+        border-radius: 10px;
+    }
+
+    .titulo{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+        color:#ffff00;
+        font-size: 15px;
+        padding: 0px 10px 0px 10px;
+        display: flex;
+    }
+    
+    .texto-padrão{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 8px;
+        color: #ffffff;
+        display: flex;
+        text-align: justify;
+        padding: 10px 10px;
+        width: 100%;
+    }
+
 }

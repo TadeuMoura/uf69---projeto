@@ -5,7 +5,7 @@ import "./index.css";
 
 export default function Sobre () {
     return (
-    <div>
+    <div className="e">
     <Cabecalho/>
     <section className="fundo-config">
         <div className="aba-1">
